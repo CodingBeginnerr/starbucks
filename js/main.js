@@ -43,7 +43,8 @@ window.addEventListener('scroll', _.throttle(function(){
       display:'block'
     });
 
-    gsap.to(toTopEl,.2,{
+    gsap.to(toTopEl
+      ,.2,{
       x:100
     });
   }
